@@ -1,0 +1,128 @@
+body{
+    margin-top:50px;
+    min-height: 100vh;
+    background: linear-gradient( rgba(221, 220, 226, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1489861408921-2f6a1e6c1155?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) top left no-repeat;
+
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover; 
+    
+}
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* img{
+  object-fit: cover;
+  opacity: 0.3;
+
+} */
+.mainTitle{
+  font-size: 3rem;
+  margin-bottom: 5px;
+  
+}
+span{
+  color:orange;
+  font-size: 3.2rem;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+strong{
+  color:white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.lastWord{
+  color:white;
+  font-weight: lighter;
+}
+
+p{
+  color: white;
+  text-shadow: 0px 1px 0px black;
+  font-weight: 200;
+
+}
+.heading{
+  /* border:10px solid red; */
+  max-width: 250px;
+  word-wrap: break-word;
+  font-size: 1rem;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: white;
+  
+}
+
+.main-para{
+  font-size: 1.9rem;
+  text-shadow: 0px 1px 0px black;
+
+}
+.btn-White{
+background-color:white;
+color:lightskyblue;
+font-size: 20px;
+text-transform:capitalize;
+padding: 0.9rem 3.3rem;
+
+}
+
+.btn-Blue{
+  background-color:blue;
+  color:white;
+  font-size:20px;
+  text-transform:capitalize;
+  padding: 0.9rem 3.3rem;
+  box-shadow: 1px 2px 3px blue;
+}
+
+button{
+  border:0;
+  min-width: 10px;
+  display:flex;
+  justify-content: center;
+  margin-top:0;
+}
+.section{
+  display:flex;
+  flex-direction: column;
+  min-width:50px; 
+  
+}
+@media (min-width:700px) {
+  .container{
+
+    flex-direction:row;
+    flex-direction: column;
+  }
+
+  #btn-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border:10px solid red; */
+    min-width: 80%;
+  
+  }
+  .section{
+    /* align-items: flex-start; */
+  } 
+}
+
+/* @media (max-width: 200px){
+  body{
+    
+
+  }
+  img{
+    object-fit: contain;
+  }
+} */
