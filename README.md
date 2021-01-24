@@ -1,1 +1,1 @@
-# This is for practice purpose. This an actual Enterprise Employee page. I am just practicing using Flexbox.
+# This is for practice purpose. This is a clone of Enterprise Employee page. I am just practicing using Flexbox.
